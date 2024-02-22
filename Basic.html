@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!--Edna Lynn Laxa , Web Development II , Assignment: Create Element , January 21, 2024 -->
+
+<body>
+        <u><h1>Create Elements</h1></u>
+    <script>
+        //The div tag 
+        const div1 = document.createElement('div'); 
+        const div1Text1 = document.createTextNode("Four inseparable friends, Carmen, Lena, Tibby, and Bridget, face the challenges and joys of adolescence while embarking on separate summer adventures. Bound by a magical pair of jeans that mysteriously fits them all perfectly, they rely on this physical connection to maintain their sisterhood despite the distance");
+        //link / append the text to the div 
+        div1.appendChild(div1Text1); 
+
+        // add div1 to body 
+        document.body.appendChild(div1); 
+
+         //Styling 
+        //DIV1 
+        div1.style.backgroundColor="pink"; 
+        div1.style.fontFamily="Tahoma"; 
+        div1.style.padding="20px"; 
+
+
+        const div2 = document.createElement('div'); 
+        const div2Text2 = document.createTextNode("Sagittarians, the fiery centaurs of the zodiac, are known for their adventurous spirit and insatiable curiosity. They gallop through life with optimism and enthusiasm, forever seeking new experiences and knowledge.");
+        //link / append the text to the div 
+        div2.appendChild(div2Text2); 
+
+        // add div1 to body 
+        document.body.appendChild(div2);
+        
+        div2.style.backgroundColor="skyblue"; 
+        div2.style.fontFamily="Georgia"; 
+        div2.style.padding="10px"; 
+
+
+        const div3= document.createElement('div'); 
+        const div3Text3 = document.createTextNode("Juggling studies and work can be a demanding yet rewarding experience for working students. They navigate packed schedules, balancing late-night studying with early morning shifts. Their days are filled with the hustle of classrooms, libraries, and workplaces, requiring exceptional time management and unwavering dedication.");
+        //link / append the text to the div 
+        div3.appendChild(div3Text3); 
+
+        // add div1 to body 
+        document.body.appendChild(div3); 
+        div3.style.backgroundColor="lavender"; 
+        div3.style.fontFamily="Lobster"; 
+        div3.style.padding="40px"; 
+
+    </script>
+
+</body>
+<footer>
+    <p> Edna Lynn Laxa ; Create Elements </p>
+</footer>
+</html>
